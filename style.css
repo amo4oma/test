@@ -1,0 +1,24 @@
+.links{
+  border-left: 30px;
+  border-width: thin;
+
+  border-color: black;
+}
+#logo{
+  color : #2bae66;
+  font-weight: bold;
+
+}
+
+.btn{
+    border-radius: 25px !important;
+}
+.time{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 5rem;
+}
+.date{
+  text-align: center;
+  font-size: 3rem;
+}
