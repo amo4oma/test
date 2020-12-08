@@ -1,46 +1,59 @@
-.links{
+.links {
   border-left: 30px;
   border-width: thin;
-
   border-color: black;
 }
-#logo{
-  color : #2bae66;
+
+#logo {
+  color: #2bae66;
   font-weight: bold;
-
 }
 
-
-.btn{
-    border-radius: 25px !important;
+.btn {
+  border-radius: 25px !important;
 }
-.time{
+
+.time {
   margin-top: 100px;
   text-align: center;
   font-size: 10rem;
 }
-.date{
+
+.date {
   text-align: center;
   font-size: 5rem;
 }
-
-
+/* Css for mobile  */
 @media only screen and (max-width: 768px) {
-  #logo{
-    color : #2bae66;
+  #logo {
+    color: #2bae66;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2rem !important;
+  }
 
+  .navbar {
+    color: #2bae66;
+    font-weight: bold;
+    font-size: 2rem !important;
   }
-.container{
-  margin: 0% !important;
-  padding: 0% !important;
-}
-.time {
-  font-size: 6rem;
-    margin-top: 40%;
+
+  .navbar-toggler {
+    color: #2bae66;
+    font-weight: bold;
+    font-size: 2rem !important;
   }
-  .date{
+
+  .container {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .time {
+    font-size: 6rem;
+    margin-top: 40% !important;
+  }
+
+  .date {
     font-size: 4rem;
     margin-top: 20px;
   }
