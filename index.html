@@ -1,57 +1,288 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta charset="utf-8">
-    <title>Test</title>
-<!-- linking bootstrap -->
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta charset="utf-8">
+  <title>Test</title>
+  <!-- linking bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <body>
-    <div class="container mt-5">
 
-  <!-- The Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a id="logo" class="navbar-brand" href="#">CURRENT TIME</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav ml-auto   ">
-        <li class="nav-item">
-          <a class="nav-link active border-right  pr-5" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-right pl-2 pr-5" href="#">Become a Partner</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border-right pl-2 pr-5" href="#" tabindex="-1" aria-disabled="true">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  pl-2 pr-5" href="#" tabindex="-1" aria-disabled="true">Login</a>
-        </li>
-      </ul>
-      <form class="d-flex">
+<body>
+  <div class="container mt-3">
 
-        <button type="button" class="btn btn-success pr-4 pb-2">Contact us</button>
-      </form>
+    <!-- The Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto mr-5  ">
+            <li class="nav-item">
+              <a class="nav-link active  pl-3  pr-3 bor" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  pl-3 pr-3 bor" href="#">Become a Partner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  pl-3 pr-3 bor" href="#" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  pl-3 pr-3 mr-5" href="#" tabindex="-1" aria-disabled="true">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+
+            <button type="button" class="btn btn-success px-4 ">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <!-- <div class="col-md-5 p-lg-5 mx-auto my-5"> -->
+  <div class="d-flex flex-column vh-100 justify-content-center align-items-center">
+    <h1 class="header ">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
+    <h6>SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
+    <div class="text-center">
+      <button type="button" class="btn btn-success mt-4">Learn more</button>
     </div>
   </div>
-</nav>
-</div>
-
-    <h1 class="time">...Loading</h1>
-    <h2 class="date">...Loading</h2>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script type="text/javascript" src="index.js">
+  <!-- </div> -->
 
-</script>
-  </body>
+  <section>
+    <div id="s2" class="container mt-5">
+      <div class="row justify-content-around">
+        <div id="about" class="col-lg-6 col-md-12">
+          <h1 class="at">About <span class="green">Solvenhere</span></h1>
+          <p>Modern day problems require modern day solutions. SolveInHere serves as your
+            ultimate guide to improve your physical, mental, emotional and spiritual health.
+            SolveInHere’s unique features allow you to easily find the best experts of their
+            professional fields right here within the interactive platform. It allows you to
+            conduct real time consultations with accredited professionals from all over the
+            world at your convenient time and place.</p>
+          <a href="#">Read more <button type="button" class="btn btn-success btn-sm ml-2 "> > </button> </a>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <img class="image-1" src="images/image3.png" alt="">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md at">
+          <span>At <span class="green">Solvenhere</span> , we <br> believe in building <br>expectational solutions <br> collaboratively </span>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="s2" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h1 class="about">Tell us your <span class="green">needs</span></h1>
+          <p>Briefly describe your requirements and let us further assist you with finding the right
+            expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
+            appointment for you to meet with your lawyer and have face-to-face consultation via
+            video call. It is simple and convenient.</p>
+          <a href="#">Read more <button type="button" class="btn btn-success btn-sm ml-2 "> > </button> </a>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <img class="image-1" src="images/image.png" alt="">
+          <div class="box"></div>
+        </div>
+
+      </div>
+    </div>
+    <div id="s2" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <img id="thirdImage" class="image-1" src="images/image.png" alt="">
+          <div class="box-opposite"></div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+
+          <h1 class="about">Transcend <span class="green">Geography</span></h1>
+          <p>Briefly describe your requirements and let us further assist you with finding the right
+            expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
+            appointment for you to meet with your lawyer and have face-to-face consultation via
+            video call. It is simple and convenient.</p>
+          <a href="#">Read more <button type="button" class="btn btn-success btn-sm ml-2 "> > </button> </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <div id="s2" class="container mt-5">
+      <div class="row justify-content-around ">
+        <div class="col-lg-6 col-md-12 ">
+
+          <h1 class="about mb-4">Our <span class="green">Mission</span></h1>
+          <p>Briefly describe your requirements and let us further assist you with finding the right
+            expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
+            appointment for you to meet with your lawyer and have face-to-face consultation via
+            video call. It is simple and convenient.</p>
+          <h1 class="about mt-5">Our <span class="green">Vission</span></h1>
+          <p>Briefly describe your requirements and let us further assist you with finding the right
+            expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
+            appointment for you to meet with your lawyer and have face-to-face consultation via
+            video call. It is simple and convenient.</p>
+          <a href="#">Read more <button type="button" class="btn btn-success btn-sm ml-2 "> > </button> </a>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img class="image-3" src="images/image (1).png" alt="">
+          <div class="box-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-3">
+      <h1 class=" text-center">Become a <span class="green">partner</span></h1>
+      <h6>We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application. There</h6>
+      <h6>is absolutely no charge for presenting your services with us.</h6>
+      <div class="text-center">
+        <button type="button" class="btn btn-success mt-4 mb-5">Learn more</button>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container mt-5">
+      <table class="table table-borderless mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Areas Covers</th>
+            <th class="green ">
+              <h3>Psychology</h3>
+            </th>
+            <th class="green ">
+              <h3>Psychiatrists</h3>
+            </th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td style="line-height: 2;">Child Psychologist
+              <br>Clinical Psychologist
+              <br>Developmental Psychologist
+              <br>Media Psychologist
+              <br>Consumer Psychologist
+              <br>Health Psychologist
+              <br> Industrial / Organizational
+              <br> Military Psychologist Forensic
+              <br> Psychologist Social
+              <br> Psychologist Educational
+              <br> Psychologist Engineering Psychologist•
+              <br> Psychologist Doctorate - PhD
+              <br> Psychologist Doctorate - PsyD
+              <br> Rehabilitation Psychologist
+              <br> School Psychologist
+              <br> Spiritual Psychologist
+              <br> Sport Psychologist
+            </td>
+            <td>Child Psychologist
+               <br>medical psychotherapy
+              <br>old age psychiatry
+              <br>child and adolescent psychiatry
+              <br>general psychiatry
+              <table class="">
+                <tr>
+                  <h3 class="green mt-5">Nutritionist</h3>
+                </tr>
+                <td>Sports Nutritionist <br> Clinical Dietitian <br> Fitness coach</td>
+              </table>
+              <table>
+                <tr>
+                  <h3 class="green mt-5">Tutor</h3>
+                </tr>
+                <td><br>Yoga instructorBreathing
+                    <br>exerciseMartial
+                    <br>Arts Coach</td>
+              </table>
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td></td>
+            <td>
+
+            </td>
+
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class=" py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <h2>Solveinhere</h2>
+          <small class="d-block mb-3 text-muted">© 2017-2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Cool stuff</a></li>
+            <li><a class="link-secondary" href="#">Random feature</a></li>
+            <li><a class="link-secondary" href="#">Team feature</a></li>
+            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+            <li><a class="link-secondary" href="#">Another one</a></li>
+            <li><a class="link-secondary" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Resource name</a></li>
+            <li><a class="link-secondary" href="#">Resource</a></li>
+            <li><a class="link-secondary" href="#">Another resource</a></li>
+            <li><a class="link-secondary" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js">
+
+  </script>
+</body>
+
 </html>
