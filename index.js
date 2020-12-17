@@ -7,7 +7,6 @@
 //     // alert("API erorr please refrish");
 //   });;
 
-$(".about").css("color","#2E2E2E");
 // updating the h1 & h2 with the time from the Api
 
 // function desplay(name) {
