@@ -1,10 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 .links {
   border-left: 30px;
   border-width: thin;
   border-color: black;
 }
 .navbar{
-
+background-color: #fff;
 }
 .green{
   color: #2bae66;
@@ -104,8 +107,7 @@ h6{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   margin-top: 2%;
-  margin-left: 25%;
-  margin-right: 25%;
+
   font-size: 10pt;
 
 
@@ -121,7 +123,7 @@ h6{
   line-height: 1;
 }
 footer{
-  width: 100%;
+background-color: inherit;
   height: 100%;
   background-color: #2bae66;
   padding: 2%;
@@ -158,6 +160,9 @@ footer{
     margin-right: 1%;
     font-size: 20pt;
 
+  }
+  .header-3{
+    font-family: 'Poppins', sans-serif;
   }
 
 h6{

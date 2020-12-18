@@ -28,18 +28,18 @@
               <a class="nav-link active  pl-3  pr-3 bor" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 bor" href="#">Become a Partner</a>
+              <a class="nav-link  pl-3 pr-3 bor" href="#2">Become a Partner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 bor" href="#" tabindex="-1" aria-disabled="true">About</a>
+              <a class="nav-link  pl-3 pr-3 bor" href="#1" tabindex="-1" aria-disabled="true">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 mr-5" href="#" tabindex="-1" aria-disabled="true">Login</a>
+              <a class="nav-link  pl-3 pr-3 mr-5" href="login\login-page.html" tabindex="-1" aria-disabled="true">Login</a>
             </li>
           </ul>
           <form class="d-flex">
 
-            <button type="button" class="btn btn-success px-4 ">Sign up</button>
+            <button type="button" onclick="window.location.href='login/signup.html'" class="btn btn-success px-4 ">Singn up</button>
           </form>
         </div>
       </div>
@@ -48,16 +48,16 @@
   <!-- <div class="col-md-5 p-lg-5 mx-auto my-5"> -->
   <div class="d-flex flex-column vh-100 justify-content-center align-items-center">
     <h1 class="header ">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
-    <h6>SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
+    <h6 class="w-50">SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
     <div class="text-center">
       <button type="button" class="btn btn-success mt-4">Learn more</button>
     </div>
   </div>
 
-
+</div>
   <!-- </div> -->
 
-  <section>
+  <section id="1">
     <div id="s2" class="container mt-5">
       <div class="row justify-content-around">
         <div id="about" class="col-lg-6 col-md-12">
@@ -147,9 +147,9 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="2">
     <div class="section-3">
-      <h1 class=" text-center">Become a <span class="green">partner</span></h1>
+      <h1 class=" text-center display-1 header-3 font-weight-bold">Become a <span class="green">partner</span></h1>
       <h6>We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application. There</h6>
       <h6>is absolutely no charge for presenting your services with us.</h6>
       <div class="text-center">
@@ -228,54 +228,63 @@
         </tbody>
       </table>
     </div>
-    <footer class=" py-5">
+
+
+    <div class="container">
       <div class="row">
-        <div class="col-12 col-md">
-          <h2>Solveinhere</h2>
-          <small class="d-block mb-3 text-muted">© 2017-2020</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Cool stuff</a></li>
-            <li><a class="link-secondary" href="#">Random feature</a></li>
-            <li><a class="link-secondary" href="#">Team feature</a></li>
-            <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-            <li><a class="link-secondary" href="#">Another one</a></li>
-            <li><a class="link-secondary" href="#">Last time</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Resource name</a></li>
-            <li><a class="link-secondary" href="#">Resource</a></li>
-            <li><a class="link-secondary" href="#">Another resource</a></li>
-            <li><a class="link-secondary" href="#">Final resource</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Business</a></li>
-            <li><a class="link-secondary" href="#">Education</a></li>
-            <li><a class="link-secondary" href="#">Government</a></li>
-            <li><a class="link-secondary" href="#">Gaming</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="link-secondary" href="#">Team</a></li>
-            <li><a class="link-secondary" href="#">Locations</a></li>
-            <li><a class="link-secondary" href="#">Privacy</a></li>
-            <li><a class="link-secondary" href="#">Terms</a></li>
-          </ul>
+        <div class="col text-center">
+              <button type="button" class="btn btn-success m-4 center">Learn more</button>
         </div>
       </div>
-    </footer>
-  </section>
+    </div>
 
+  </section>
+  <footer class=" py-5 w-100">
+    <div class="row ">
+      <div class="col-12 col-md">
+        <h2>Solveinhere</h2>
+        <small class="d-block mb-3 text-muted">© 2017-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Cool stuff</a></li>
+          <li><a class="link-secondary" href="#">Random feature</a></li>
+          <li><a class="link-secondary" href="#">Team feature</a></li>
+          <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+          <li><a class="link-secondary" href="#">Another one</a></li>
+          <li><a class="link-secondary" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Resource name</a></li>
+          <li><a class="link-secondary" href="#">Resource</a></li>
+          <li><a class="link-secondary" href="#">Another resource</a></li>
+          <li><a class="link-secondary" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Business</a></li>
+          <li><a class="link-secondary" href="#">Education</a></li>
+          <li><a class="link-secondary" href="#">Government</a></li>
+          <li><a class="link-secondary" href="#">Gaming</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Team</a></li>
+          <li><a class="link-secondary" href="#">Locations</a></li>
+          <li><a class="link-secondary" href="#">Privacy</a></li>
+          <li><a class="link-secondary" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
