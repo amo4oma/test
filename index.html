@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta charset="utf-8">
-  <title>Test</title>
+  <title>Solveinhere</title>
   <!-- linking bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <!-- the fontawesome script -->
-    <script src="https://kit.fontawesome.com/620a54b48e.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/620a54b48e.js" crossorigin="anonymous"></script>
 
 <body>
   <div class="container mt-3">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ml-auto mr-5  ">
             <li class="nav-item">
-              <a class="nav-link active  pl-3  pr-3 bor" aria-current="page" href="#">Home</a>
+              <a id="home-link" class="nav-link active  pl-3  pr-3 nav-borderRight" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 bor" href="#2">Become a Partner</a>
+              <a class="nav-link  pl-3 pr-3 nav-borderRight" href="#2">Become a Partner</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 bor" href="#1" tabindex="-1" aria-disabled="true">About</a>
+              <a class="nav-link  pl-3 pr-3 nav-borderRight" href="#1" tabindex="-1" aria-disabled="true">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link  pl-3 pr-3 mr-5" href="login\login-page.html" tabindex="-1" aria-disabled="true">Login</a>
@@ -46,24 +46,26 @@
         </div>
       </div>
     </nav>
+</div>
+    <!-- <div class="col-md-5 p-lg-5 mx-auto my-5"> -->
 
-  <!-- <div class="col-md-5 p-lg-5 mx-auto my-5"> -->
-  <div class="d-flex flex-column vh-100 justify-content-center align-items-center">
-    <h1 class="main-header text-center w-75">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
-    <h6 class="w-50 header-6">SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
-    <div class="text-center">
-      <button type="button" class="btn btn-success mt-4">Learn more</button>
+    <div class="container ">
+      <div class="row about-container d-flex flex-column vh-100 justify-content-center align-items-center">
+      <h1 class="main-header text-center w-75">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
+      <h6>SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
+      <div class="text-center">
+        <button type="button" class="btn btn-success mt-4 px-4">Learn more</button>
 
+      </div>
     </div>
+
   </div>
 
-</div>
-  <!-- </div> -->
 
   <section id="1">
-    <div id="s2" class="container mt-5">
+    <div class="container about-container">
       <div class="row justify-content-around">
-        <div  class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-10 col-sm-6">
           <h1 class="content-text">About <span class="green">Solvenhere</span></h1>
           <p>Modern day problems require modern day solutions. SolveInHere serves as your
             ultimate guide to improve your physical, mental, emotional and spiritual health.
@@ -71,7 +73,7 @@
             professional fields right here within the interactive platform. It allows you to
             conduct real time consultations with accredited professionals from all over the
             world at your convenient time and place.</p>
-      <a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+          <a class="font-weight-bold" href="#">Read more <i class="fas fa-chevron-right"></i></a>
         </div>
 
         <div class="col-lg-6 col-md-12">
@@ -80,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container at-Solveinhere-container mb-5">
       <div class="row">
         <div class="col-md-8 font-weight-bold font-size">
           <span>At <span class="green">Solveinhere</span> , we believe in building expectational solutions collaboratively </span>
@@ -88,16 +90,15 @@
       </div>
 
     </div>
-
-    <div id="s2" class="container mt-5">
+    <div class="container tell-us">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <h1 class="content-text">Tell us your <span class="green">needs</span></h1>
+          <h1>Tell us your <span class="green">needs</span></h1>
           <p>Briefly describe your requirements and let us further assist you with finding the right
             expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
             appointment for you to meet with your lawyer and have face-to-face consultation via
             video call. It is simple and convenient.</p>
-        <a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+
         </div>
 
         <div class="col-lg-6 col-md-12">
@@ -107,41 +108,41 @@
 
       </div>
     </div>
-    <div  class="container mt-5">
+    <div class="container transcend-container">
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <img id="thirdImage" class="image-1" src="images/image.png" alt="">
           <div class="box-opposite"></div>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12  ">
 
           <h1 class="content-text">Transcend <span class="green">Geography</span></h1>
           <p>Briefly describe your requirements and let us further assist you with finding the right
             expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
             appointment for you to meet with your lawyer and have face-to-face consultation via
             video call. It is simple and convenient.</p>
-      <a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+
         </div>
       </div>
     </div>
 
   </section>
   <section>
-    <div  class="container mt-5">
+    <div class="container mission-vission-container">
       <div class="row justify-content-around ">
-        <div class="col-lg-6 col-md-12 ">
+        <div class="col-lg-6 col-md-12 col-sm-4 ">
 
-          <h1 class="content-text mb-4">Our <span class="green">Mission</span></h1>
+          <h1 class="mission content-text ">Our <span class="green">Mission</span></h1>
           <p>Briefly describe your requirements and let us further assist you with finding the right
             expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
             appointment for you to meet with your lawyer and have face-to-face consultation via
             video call. It is simple and convenient.</p>
-          <h1 class="content-text mt-5">Our <span class="green">Vission</span></h1>
+          <h1 class=" vission content-text ">Our <span class="green">Vission</span></h1>
           <p>Briefly describe your requirements and let us further assist you with finding the right
             expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
             appointment for you to meet with your lawyer and have face-to-face consultation via
             video call. It is simple and convenient.</p>
-        <a href="#">Read more <i class="fa fa-arrow-right"></i></a>
+
         </div>
         <div class="col-lg-6 col-md-12">
           <img class="image-3" src="images/image (1).png" alt="">
@@ -151,17 +152,17 @@
     </div>
   </section>
   <section id="2">
-    <div class="section-3">
+    <div class="become-partner">
       <h1 class=" text-center display-1 header-3 font-weight-bold">Become a <span class="green">partner</span></h1>
-      <h6 class="header-6">We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application.<br /> There is absolutely no charge for presenting your services with us.</h6>
+      <h6>We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application.<br /> There is absolutely no charge for presenting your services with us.</h6>
       <div class="text-center">
-        <button type="button" class="btn btn-success mt-4 mb-5">Learn more</button>
+        <button type="button" class="btn btn-success mt-4 px-4">Learn more</button>
       </div>
 
     </div>
   </section>
   <section>
-    <div class="section-4 container mt-5">
+    <div class="areas-covers container mt-5">
       <table class="table table-borderless mt-5">
         <thead>
           <tr>
@@ -197,7 +198,7 @@
               <br> Sport Psychologist
             </td>
             <td>Child Psychologist
-               <br>medical psychotherapy
+              <br>medical psychotherapy
               <br>old age psychiatry
               <br>child and adolescent psychiatry
               <br>general psychiatry
@@ -212,8 +213,9 @@
                   <h3 class="green mt-5">Tutor</h3>
                 </tr>
                 <td><br>Yoga instructorBreathing
-                    <br>exerciseMartial
-                    <br>Arts Coach</td>
+                  <br>exerciseMartial
+                  <br>Arts Coach
+                </td>
               </table>
             </td>
 
@@ -232,7 +234,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-                <button type="button" class="btn btn-success m-4 center">Learn more</button>
+            <button type="button" class="btn btn-success mt-4 px-4">Learn more</button>
           </div>
         </div>
       </div>
@@ -242,12 +244,23 @@
 
 
   </section>
+
   <footer class=" py-5 w-100">
-    <div class="row ">
+    <div class="col-12 col-md mb-5 px-25">
+      <h2 class="font-weight-bold font-weight-bold ml-5">Solveinhere</h2>
+    </div>
+    <div class="row px-50">
       <div class="col-12 col-md">
-        <h2>Solveinhere</h2>
-        <small class="d-block mb-3">© 2017-2020</small>
+
+
+        <div class="social-icons ml-4 mt-5">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+
       </div>
+
       <div class="col-6 col-md">
         <h5>Features</h5>
         <ul class="list-unstyled text-small">

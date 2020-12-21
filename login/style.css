@@ -15,23 +15,27 @@
 .form-gap {
     padding-top: 70px;
 }
+.nav-borderRight:after{
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 1px;
+  height: 80%;
+  background-color: #000 ;
+}
+.nav-borderRight{
+  position: relative;
+}
 .navbar{
-background-color: #fff;
+  background-color: #fff;
 }
 .login-container{
     margin-top: 10%;
     margin-bottom: 5%;
     margin-left: 25%;
 }
-.login-form-1{
-    padding: 5%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
-}
-.login-form-1 h3{
 
-    color: #333;
-      font-family: 'Poppins', sans-serif;
-}
 .login-form-2{
     padding: 5%;
     background: #2bae66;

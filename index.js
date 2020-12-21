@@ -12,4 +12,9 @@
 // function desplay(name) {
 //   $("h1").text(name.datetime.slice(11, 19));
 //   $("h2").text(name.datetime.slice(0, 10));
-// }
+// // }
+// $("#home-link").click(function() {
+//     $('html, body').animate({
+//         scrollTop: $("#1").offset().top
+//     }, );
+// });
