@@ -40,17 +40,20 @@ h1, h2 ,h3, h4, h5, h6 {
 
 }
 
-i {
-  padding-top: 7px;
+.read-more-arrow i{
+
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   background-color: #2BAE66;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
   border-radius: 50%;
+
 }
+
+
 
 footer {
   background-color: inherit;
