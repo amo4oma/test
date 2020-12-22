@@ -18,3 +18,8 @@
 //         scrollTop: $("#1").offset().top
 //     }, );
 // });
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+});
