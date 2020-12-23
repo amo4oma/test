@@ -181,24 +181,40 @@ margin-top: 15px;
   margin-top: 20px;
 }
 
-.at-Solveinhere-container {
-  margin-top: 186px;
+.at-Solveinhere-container h1 {
+  margin-top: 146px;
+  font-size: 59px;
+
+text-align: left;
 }
 
 .image-1 {
-  width: 80%;
-  height: 80%;
-  margin-left: 10%;
+  width: 424px;
+  height: 283px;
+  margin-left: 20%;
   object-fit: cover;
+}
+.image-2{
+  width: 370px;
+height: 247px;
 }
 
 .image-3 {
-  width: 46%;
-  height: 27em;
-  margin-left: 240px;
+  width: 370px;
+  height: 247px;
+margin-left: 184px;
+margin-top: 135px;
   object-fit: cover;
 }
-
+.svg{
+  position: relative;
+  left:25rem;
+  bottom: 5rem;
+}
+.mission-p{
+  position: relative;
+  bottom: 3rem;
+}
 /* the small green box on the images */
 .box {
   height: 4rem;
@@ -207,8 +223,9 @@ margin-top: 15px;
   background-color: #2BAE66;
   position: relative;
   bottom: 2rem;
-  left: 2rem;
+  left: 4rem;
 }
+
 
 .box-opposite {
   height: 4rem;
@@ -219,6 +236,15 @@ margin-top: 15px;
   bottom: 2rem;
   left: 29rem;
 }
+.box-opposite-2 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0% 0% 60% 0%;
+  background-color: #2BAE66;
+  position: relative;
+  bottom: 1.5rem;
+  left: 21rem;
+}
 
 .box-3 {
   height: 4rem;
@@ -227,7 +253,7 @@ margin-top: 15px;
   background-color: #2BAE66;
   position: relative;
   bottom: 2rem;
-  left: 28rem;
+  left: 33rem;
 }
 
 /* ________ */
@@ -237,13 +263,16 @@ margin-top: 15px;
   font-family: "Hind Madurai";
   font-weight: normal;
   font-size: 16px;
-  width: 700px;
+  width: 760px;
   text-align: center;
   margin-top: 19px;
 }
 
+
 .main-header {
-  font-size: 80px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 71px;
   font-weight: bold;
   line-height: 1;
 }
