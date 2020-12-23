@@ -303,9 +303,7 @@ margin-top: 135px;
   font-size: 40px;
 }
 
-.vission {
-  margin-top: 98px;
-}
+
 
 /* become a partrner section  */
 .become-partner {
@@ -455,6 +453,9 @@ right:25px;
 
 /* css for mobile  */
 @media only screen and (min-device-width: 280px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1)  {
+    h1{
+      font-size: 2rem;
+    }
   .navbar-toggler {
     color: #2bae66;
     font-weight: bold;
@@ -462,11 +463,21 @@ right:25px;
   }
 
   .main-header {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1rem;
   }
-
-  .image-1 {
+  .at-Solveinhere-container h1{
+    margin-top: 50px;
+    font-size: 28px;
+  }
+  .image-1   {
+    width: 346px;
     margin-top: 30px;
+    margin-left: auto;
+  }
+  .image-2{
+  width:  344px;
   }
 
   .header-3 {
@@ -486,13 +497,15 @@ right:25px;
   }
 
   .image-3 {
-    margin-top: 30px;
-    margin-left:4rem ;
-    width: 200px;
+    margin-top: 9px;
+    margin-left:2rem ;
+    width: 300px;
     height: auto;
     object-fit: cover;
   }
-
+.box{
+  margin-left: -5rem;
+}
   .box-3 {
     height: 4rem;
     width: 4rem;
@@ -500,14 +513,26 @@ right:25px;
     background-color: #2BAE66;
     position: relative;
     bottom: 2rem;
-    left: 14rem;
+    left: 18.5rem;
   }
 
   .box-opposite {
     left: 85%;
   }
+  .box-opposite-2{
+    left: 19rem;
+  }
+  .svg{
+    position:absolute;
+    left:17rem;
+    bottom: 20rem;
+  }
 
-  .transcend-container .row {
+  .transcend-container h1 {
+    font-size: 29px;
+
+  }
+  .transcend-container .row{
     flex-direction: column-reverse;
   }
 
@@ -538,6 +563,9 @@ right:25px;
   }
   .social-icons i{
     margin: 0px;
+  }
+  .content-text{
+        font-size: 25pt;
   }
 }
 
