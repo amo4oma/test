@@ -153,6 +153,11 @@ footer {
 .navbar {
   background-color: #fff;
   padding: 1.5rem 0;
+  transition: 0.3s ease-in;
+}
+
+.navbar.scroll {
+  padding: 0.75rem 0;
 }
 
 .logo-image {
