@@ -34,14 +34,12 @@ p {
   color: #2e2e2e;
 }
 
-h1, h2 ,h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-
 }
 
-.read-more-arrow i{
-
+.read-more-arrow i {
   text-align: center;
   color: #fff;
   font-size: 17px;
@@ -50,14 +48,10 @@ h1, h2 ,h3, h4, h5, h6 {
   height: 23px;
   line-height: 23px;
   border-radius: 50%;
-
 }
-
-
 
 footer {
   background-color: inherit;
-
   background-color: #2bae66;
   padding: 2%;
   color: #fff;
@@ -79,10 +73,10 @@ footer {
 
 .font-size h1 {
   font-size: 67px;
-;
+  ;
 }
-/* nav-bar-burger-to-X */
 
+/* nav-bar-burger-to-X */
 /* Icon 3 */
 #nav-icon3 {
   margin: 0;
@@ -102,7 +96,7 @@ footer {
   border: none;
 }
 
-#nav-icon3 span{
+#nav-icon3 span {
   display: block;
   position: absolute;
   height: 4px;
@@ -112,7 +106,7 @@ footer {
   border-color: #fff;
   opacity: 1;
   left: 0;
-margin-top: 15px;
+  margin-top: 15px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -122,9 +116,9 @@ margin-top: 15px;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
+
 #nav-icon3 span:nth-child(1) {
   top: 0px;
-
 }
 
 #nav-icon3 span:nth-child(2) {
@@ -141,7 +135,6 @@ margin-top: 15px;
 }
 
 #nav-icon3.open span:nth-child(2) {
-
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -149,15 +142,12 @@ margin-top: 15px;
 }
 
 #nav-icon3.open span:nth-child(3) {
-
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   top: 12px;
 }
-
-
 
 /* navbar */
 .navbar {
@@ -182,10 +172,9 @@ margin-top: 15px;
   margin-top: 20px;
 }
 
-.belief-container  {
+.belief-container {
   margin-top: 160px;
-  font-size: 67px
-text-align: left;
+  font-size: 67px text-align: left;
 }
 
 .image-1 {
@@ -194,27 +183,31 @@ text-align: left;
   margin-left: 80px;
   object-fit: cover;
 }
-.image-2{
+
+.image-2 {
   width: 80%;
-height: auto;
+  height: auto;
 }
 
 .image-3 {
   width: 80%;
   height: auto;
-margin-left: 15%;
-margin-top: 135px;
+  margin-left: 15%;
+  margin-top: 135px;
   object-fit: cover;
 }
-.svg{
+
+.svg {
   position: relative;
-  left:25rem;
+  left: 25rem;
   bottom: 5rem;
 }
-.mission-p{
+
+.mission-p {
   position: relative;
   bottom: 3rem;
 }
+
 /* the small green box on the images */
 .box {
   height: 4rem;
@@ -226,7 +219,6 @@ margin-top: 135px;
   left: 3rem;
 }
 
-
 .box-opposite {
   height: 4rem;
   width: 4rem;
@@ -236,6 +228,7 @@ margin-top: 135px;
   bottom: 2rem;
   left: 29rem;
 }
+
 .box-opposite-2 {
   height: 4rem;
   width: 4rem;
@@ -258,26 +251,23 @@ margin-top: 135px;
 
 /* ________ */
 /* about section */
-
 .about-container h6 {
   font-family: "Hind Madurai";
   font-weight: normal;
   font-size: 16px;
-
   text-align: center;
   margin-top: 19px;
 }
-.main-header{
-    line-height: 82px;
-    margin-left: 180px;
-    margin-right: 180px;
+
+.main-header {
+  line-height: 82px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
-.main-header h1{
-
+.main-header h1 {
   font-size: 71px;
   font-weight: bold;
-
 }
 
 .content-text {
@@ -297,7 +287,8 @@ margin-top: 135px;
 .tell-us {
   margin-top: 160px;
 }
-.tell-us h1{
+
+.tell-us h1 {
   font-size: 45px;
 }
 
@@ -309,8 +300,6 @@ margin-top: 135px;
   font-size: 40px;
 }
 
-
-
 /* become a partrner section  */
 .become-partner {
   margin-top: 168px;
@@ -320,21 +309,19 @@ margin-top: 135px;
 .become-partner h1 {
   font-size: 69px;
 }
+
 .become-partner h1 {
-
-margin-left: 300px;
-margin-right: 300px;
-
+  /* margin-left: 300px;
+  margin-right: 300px; */
 }
 
 .become-partner h6 {
-font-weight: normal;
-margin-left: 150px;
-margin-right: 150px;
-text-align: center;
-line-height: 1.5;
-margin-top: 23px;
-
+  font-weight: normal;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 23px;
 }
 
 .areas-covers {
@@ -348,7 +335,6 @@ margin-top: 23px;
 }
 
 .footer-container {
-
   padding-left: 180px;
   background-color: #2BAE66;
 }
@@ -364,11 +350,12 @@ footer a:hover, .social-icons i:hover {
 .social-icons i {
   color: #fff;
   margin-top: 4.5rem;
-margin-right: 2rem;
-position: relative;
-right:25px;
+  margin-right: 2rem;
+  position: relative;
+  right: 25px;
 }
-.mainfooter{
+
+.mainfooter {
   padding-top: 70px;
 }
 
@@ -389,6 +376,7 @@ right:25px;
   .about-container {
     width: auto;
   }
+
   .about-container h6 {
     margin-left: auto;
     margin-right: auto;
@@ -422,7 +410,6 @@ right:25px;
   }
 
   .image-3 {
-
     margin-top: 30px;
     margin-left: 160px;
     object-fit: cover;
@@ -451,45 +438,51 @@ right:25px;
     margin-left: 20%;
     margin-right: 20%;
     position: relative;
-
     text-align: center;
   }
-  .nav-borderRight:after{
+
+  .nav-borderRight:after {
     content: none;
   }
-  .social-icons i{
+
+  .social-icons i {
     margin: 0px;
   }
 }
 
 /* css for mobile  */
-@media only screen and (min-device-width: 280px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1)  {
-    h1{
-      font-size: 16px;
-    }
+@media only screen and (min-device-width: 280px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  h1 {
+    font-size: 16px;
+  }
+
   .navbar-toggler {
     color: #2bae66;
     font-weight: bold;
     /* font-size: 2rem !important; */
   }
-.main-header{
-  margin-left: 46px;
-}
-  .main-header h1 {
 
+  .main-header {
+    margin-left: 46px;
+  }
+
+  .main-header h1 {
     font-size: 30px;
   }
-  .belief-container h1{
+
+  .belief-container h1 {
     margin-top: 50px;
     font-size: 28px;
   }
-  .image-1   {
+
+  .image-1 {
     width: 346px;
     margin-top: 30px;
     margin-left: auto;
   }
-  .image-2{
-  width:  344px;
+
+  .image-2 {
+    width: 344px;
   }
 
   .header-3 {
@@ -499,9 +492,11 @@ right:25px;
   .main-header {
     font-size: 24px;
   }
+
   .about-container h1 {
     padding: 20px;
   }
+
   .about-container h6 {
     padding: 20px;
     font-size: 1rem;
@@ -510,14 +505,16 @@ right:25px;
 
   .image-3 {
     margin-top: 9px;
-    margin-left:2rem ;
+    margin-left: 2rem;
     width: 300px;
     height: auto;
     object-fit: cover;
   }
-.box{
-  margin-left: -5rem;
-}
+
+  .box {
+    margin-left: -5rem;
+  }
+
   .box-3 {
     height: 4rem;
     width: 4rem;
@@ -531,20 +528,22 @@ right:25px;
   .box-opposite {
     left: 85%;
   }
-  .box-opposite-2{
+
+  .box-opposite-2 {
     left: 19rem;
   }
-  .svg{
-    position:absolute;
-    left:17rem;
+
+  .svg {
+    position: absolute;
+    left: 17rem;
     bottom: 20rem;
   }
 
   .transcend-container h1 {
     font-size: 29px;
-
   }
-  .transcend-container .row{
+
+  .transcend-container .row {
     flex-direction: column-reverse;
   }
 
@@ -552,32 +551,37 @@ right:25px;
     margin-top: 50px;
     padding-left: 30px;
   }
-.become-partner h1{
-  margin-left: 0px;
-  margin-right:0px;
-}
-.become-partner h6{
-  margin: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
+  .become-partner h1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .become-partner h6 {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .become-partner h1 {
     font-size: 24px;
   }
 
   .footer-container {
-
     width: 100%;
     height: auto;
   }
-  .nav-borderRight:after{
+
+  .nav-borderRight:after {
     content: none;
   }
-  .social-icons i{
+
+  .social-icons i {
     margin: 0px;
   }
-  .content-text{
-        font-size: 25pt;
+
+  .content-text {
+    font-size: 25pt;
   }
 }
 
