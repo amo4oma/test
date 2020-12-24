@@ -28,7 +28,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto mr-5  ">
+          <ul class="navbar-nav ml-auto   ">
             <li class="nav-item">
               <a id="home-link" class="nav-link active  pl-3  pr-3 nav-borderRight" aria-current="page" href="#">Home</a>
             </li>
@@ -39,13 +39,10 @@
               <a class="nav-link  pl-3 pr-3 nav-borderRight" href="#1" tabindex="-1" aria-disabled="true">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  pl-3 pr-3 mr-5" href="login\login-page.html" tabindex="-1" aria-disabled="true">Login</a>
+              <a class="nav-link  pl-3 pr-3 " href="login\login-page.html" tabindex="-1" aria-disabled="true">Login</a>
             </li>
           </ul>
-          <form class="d-flex">
-
-            <button type="button" onclick="window.location.href='login/signup.html'" class="btn btn-success px-4 ">Sign up</button>
-          </form>
+            <a type="button" onclick="window.location.href='login/signup.html'" class="btn btn-success px-4 ">Sign up</a>
         </div </div>
 
     </nav>
@@ -54,8 +51,12 @@
 
   <div class="container ">
     <div class="row about-container d-flex flex-column vh-100 justify-content-center align-items-center">
-      <h1 class="main-header text-center">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
-      <h6>SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
+      <div class="main-header text-center">
+          <h1 class="">THE ULTIMATE TOOL TO IMPROVE YOUR BODY, MIND & SOUL</h1>
+          <h6>SolveInHere is an online platform where you can conduct professional consultation with experts from all over the world, at your convenient time and place.</h6>
+      </div>
+
+
       <div class="text-center">
         <button type="button" class="btn btn-success mt-4 px-4">Learn more</button>
 
@@ -68,17 +69,17 @@
   <section id="about-section">
     <div class="container about-container">
       <div class="row justify-content-around">
-        <div class="col-lg-6 col-md-12 col-sm-5">
+        <div class="col-lg-6 col-md-12 col-sm-5 d-flex flex-column justify-content-center mb-5">
           <h1 class="content-text">About <span class="green">Solvenhere</span></h1>
-          <p>Modern day problems require modern day solutions. SolveInHere serves as your
+          <p class="pr-3 ">Modern day problems require modern day solutions. SolveInHere serves as your
             ultimate guide to improve your physical, mental, emotional and spiritual health.
             SolveInHere’s unique features allow you to easily find the best experts of their
             professional fields right here within the interactive platform. It allows you to
             conduct real time consultations with accredited professionals from all over the
             world at your convenient time and place.</p>
-          <div class="read-more-arrow">
+          <!-- <div class="read-more-arrow">
             <a class="font-weight-bold" href="#">Read more <i class="fas fa-chevron-right"></i></a>
-          </div>
+          </div> -->
 
         </div>
 
@@ -94,10 +95,10 @@
           <img class="image-2" src="images/image-3.jpg" alt="">
           <div class="box-opposite-2"></div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-5">
+        <div class="col-lg-6 col-md-12 col-sm-5 d-flex flex-column justify-content-center">
 
           <h1 class="content-text">Transcend <span class="green">Geography</span></h1>
-          <p>SolveInHere's uniquely developed features,
+          <p class="mb-5">SolveInHere's uniquely developed features,
             allow you to conveniently and securely hold a conference within the platform in real time.
             Given that the consultation is live,
             the geographical locations of both parties does not matter much,
@@ -108,9 +109,9 @@
         </div>
       </div>
     </div>
-    <div class="container at-Solveinhere-container mb-5">
+    <div class="container belief-container">
       <div class="row">
-        <div class="col-md-8 font-weight-bold font-size">
+        <div class="col-md-9 font-weight-bold font-size">
           <h1>At <span class="green">Solveinhere</span> , we believe in building expectational solutions collaboratively </h1>
         </div>
       </div>
@@ -118,9 +119,9 @@
     </div>
     <div class="container tell-us">
       <div class="row">
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center mb-5">
           <h1>Tell us your <span class="green">needs</span></h1>
-          <p>Briefly describe your requirements and let us further assist you with finding the right
+          <p class="mb-5">Briefly describe your requirements and let us further assist you with finding the right
             expert for you. Upon finding the suitable and certified expert, SolveInHere will set up an
             appointment for you to meet with your lawyer and have face-to-face consultation via
             video call. It is simple and convenient.</p>
@@ -138,7 +139,7 @@
 
   </section>
   <section>
-    <div class="container mission-vission-container">
+    <div class="container mission-container">
       <div class="row justify-content-around ">
         <div class="col-lg-6 col-md-12 col-sm-4 mt-5">
 
@@ -183,10 +184,10 @@
   </section>
   <section id="becomeApartnre-section">
     <div class="become-partner">
-      <h1 class=" text-center display-1 header-3 font-weight-bold">Become a <span class="green">partner</span></h1>
-      <h6 class=" w-100">We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application. There is absolutely no charge for presenting your services with us.</h6>
+      <h1 class=" text-center font-weight-bold">Become a <span class="green">partner</span></h1>
+      <h6 class=>We are always glad to work with professionals who share our core values and mission. Please click here to proceed with submitting your application. There is absolutely no charge for presenting your services with us.</h6>
       <div class="text-center">
-        <button type="button" class="btn btn-success mt-4 px-4">Learn more</button>
+        <button type="button" class="btn btn-success mt-4 px-4">Read more</button>
       </div>
 
     </div>

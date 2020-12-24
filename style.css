@@ -77,9 +77,9 @@ footer {
   display: flex;
 }
 
-.font-size {
-  font-size: 60px;
-  line-height: 1;
+.font-size h1 {
+  font-size: 67px;
+;
 }
 /* nav-bar-burger-to-X */
 
@@ -165,8 +165,6 @@ margin-top: 15px;
   padding: 1.5rem 0;
 }
 
-
-
 .logo-image {
   height: 34px;
   width: 138px;
@@ -174,6 +172,9 @@ margin-top: 15px;
 
 .btn {
   border-radius: 25px !important;
+  background-color: #2BAE66;
+  border-color: inherit;
+  font-size: 14px;
 }
 
 /* about section */
@@ -181,28 +182,27 @@ margin-top: 15px;
   margin-top: 20px;
 }
 
-.at-Solveinhere-container h1 {
-  margin-top: 146px;
-  font-size: 59px;
-
+.belief-container  {
+  margin-top: 160px;
+  font-size: 67px
 text-align: left;
 }
 
 .image-1 {
-  width: 424px;
-  height: 283px;
-  margin-left: 20%;
+  width: 80%;
+  height: auto;
+  margin-left: 80px;
   object-fit: cover;
 }
 .image-2{
-  width: 370px;
-height: 247px;
+  width: 80%;
+height: auto;
 }
 
 .image-3 {
-  width: 370px;
-  height: 247px;
-margin-left: 184px;
+  width: 80%;
+  height: auto;
+margin-left: 15%;
 margin-top: 135px;
   object-fit: cover;
 }
@@ -223,7 +223,7 @@ margin-top: 135px;
   background-color: #2BAE66;
   position: relative;
   bottom: 2rem;
-  left: 4rem;
+  left: 3rem;
 }
 
 
@@ -243,7 +243,7 @@ margin-top: 135px;
   background-color: #2BAE66;
   position: relative;
   bottom: 1.5rem;
-  left: 21rem;
+  left: 25rem;
 }
 
 .box-3 {
@@ -253,7 +253,7 @@ margin-top: 135px;
   background-color: #2BAE66;
   position: relative;
   bottom: 2rem;
-  left: 33rem;
+  left: 30rem;
 }
 
 /* ________ */
@@ -263,43 +263,49 @@ margin-top: 135px;
   font-family: "Hind Madurai";
   font-weight: normal;
   font-size: 16px;
-  width: 760px;
+
   text-align: center;
   margin-top: 19px;
 }
+.main-header{
+    line-height: 82px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
 
+.main-header h1{
 
-.main-header {
-  margin-left: 180px;
-  margin-right: 180px;
   font-size: 71px;
   font-weight: bold;
-  line-height: 1;
+
 }
 
 .content-text {
-  font-size: 40pt;
+  font-size: 45px;
   font-weight: bold;
   line-height: 1;
 }
 
 .transcend-container {
-  margin-top: 158px;
+  margin-top: 150px;
 }
 
 .transcend-container h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .tell-us {
-  margin-top: 170px;
+  margin-top: 160px;
+}
+.tell-us h1{
+  font-size: 45px;
 }
 
-.mission-vission-container {
-  margin-top: 198px;
+.mission-container {
+  margin-top: 160px;
 }
 
-.mission-vission-container h1 {
+.mission-container h1 {
   font-size: 40px;
 }
 
@@ -307,14 +313,14 @@ margin-top: 135px;
 
 /* become a partrner section  */
 .become-partner {
-  margin-top: 240px;
-  margin-bottom: 200px;
+  margin-top: 168px;
+  margin-bottom: 108px;
 }
 
 .become-partner h1 {
   font-size: 69px;
 }
-.become-partner {
+.become-partner h1 {
 
 margin-left: 300px;
 margin-right: 300px;
@@ -322,12 +328,13 @@ margin-right: 300px;
 }
 
 .become-partner h6 {
-  margin: 41px;
-  font-weight: normal;
-  font-size: 16px;
-  text-align: center;
-  color: #2e2e2e;
-  line-height: 1;
+font-weight: normal;
+margin-left: 150px;
+margin-right: 150px;
+text-align: center;
+line-height: 1.5;
+margin-top: 23px;
+
 }
 
 .areas-covers {
@@ -382,6 +389,10 @@ right:25px;
   .about-container {
     width: auto;
   }
+  .about-container h6 {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .navbar-toggler {
     color: #2bae66;
@@ -411,8 +422,7 @@ right:25px;
   }
 
   .image-3 {
-    width: auto;
-    height: auto;
+
     margin-top: 30px;
     margin-left: 160px;
     object-fit: cover;
@@ -438,7 +448,8 @@ right:25px;
   }
 
   .become-partner h6 {
-    margin: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
     position: relative;
 
     text-align: center;
@@ -454,20 +465,21 @@ right:25px;
 /* css for mobile  */
 @media only screen and (min-device-width: 280px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1)  {
     h1{
-      font-size: 2rem;
+      font-size: 16px;
     }
   .navbar-toggler {
     color: #2bae66;
     font-weight: bold;
     /* font-size: 2rem !important; */
   }
+.main-header{
+  margin-left: 46px;
+}
+  .main-header h1 {
 
-  .main-header {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1rem;
+    font-size: 30px;
   }
-  .at-Solveinhere-container h1{
+  .belief-container h1{
     margin-top: 50px;
     font-size: 28px;
   }
@@ -540,7 +552,7 @@ right:25px;
     margin-top: 50px;
     padding-left: 30px;
   }
-.become-partner{
+.become-partner h1{
   margin-left: 0px;
   margin-right:0px;
 }
