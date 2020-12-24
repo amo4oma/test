@@ -166,10 +166,17 @@ footer {
 }
 
 .btn {
-  border-radius: 25px !important;
-  background-color: #2BAE66;
+  border-radius: 6px;
+  background: #2bae66;
   border-color: inherit;
   font-size: 14px;
+}
+.btn:hover{
+  background: #188f4d;
+}
+.btn:active{
+  background: #188f4d;
+box-shadow: 0px 3px 6px rgba(24, 143, 77, 0.34);
 }
 
 /* about section */
@@ -179,7 +186,8 @@ footer {
 
 .belief-container {
   margin-top: 160px;
-  font-size: 67px text-align: left;
+  font-size: 67px;
+   text-align: left;
 }
 
 .image-1 {
@@ -198,7 +206,7 @@ footer {
   width: 80%;
   height: auto;
   margin-left: 15%;
-  margin-top: 135px;
+  margin-top: 90px;
   object-fit: cover;
 }
 
@@ -211,6 +219,9 @@ footer {
 .mission-p {
   position: relative;
   bottom: 3rem;
+}
+.mission{
+  margin-top:13px;
 }
 
 /* the small green box on the images */
@@ -286,7 +297,7 @@ footer {
 }
 
 .transcend-container h1 {
-  font-size: 45px;
+  font-size: 32px;
 }
 
 .tell-us {
@@ -294,7 +305,7 @@ footer {
 }
 
 .tell-us h1 {
-  font-size: 45px;
+  font-size: 32px;
 }
 
 .mission-container {
@@ -302,7 +313,7 @@ footer {
 }
 
 .mission-container h1 {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 /* become a partrner section  */
@@ -312,7 +323,7 @@ footer {
 }
 
 .become-partner h1 {
-  font-size: 69px;
+  font-size: 71px;
 }
 
 .become-partner h1 {
