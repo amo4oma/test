@@ -130,15 +130,15 @@ footer {
 }
 
 #nav-icon3.open span:nth-child(1) {
-  top: 13px;
-  width: 0%;
-}
-
-#nav-icon3.open span:nth-child(2) {
+  top: 12px;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(2) {
+  width: 0%
 }
 
 #nav-icon3.open span:nth-child(3) {
@@ -318,7 +318,7 @@ box-shadow: 0px 3px 6px rgba(24, 143, 77, 0.34);
 
 /* become a partrner section  */
 .become-partner {
-  margin-top: 168px;
+  margin-top: 150px;
   margin-bottom: 108px;
 }
 
@@ -374,6 +374,90 @@ footer a:hover, .social-icons i:hover {
 .mainfooter {
   padding-top: 70px;
 }
+/* login */
+
+.login-container {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.login-form-2 {
+  padding: 5%;
+  color: #292929;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3 {
+  text-align: center;
+  color: #292929;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container form {
+  padding: 10%;
+}
+
+.main-container {
+  position: relative;
+  left: 250px;
+  width: 100%;
+}
+
+.btnSubmit {
+  width: 100%;
+  height: 42px;
+  margin-top: 56px;
+  border-radius: 4px;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  background: #2bae66;
+}
+
+.email-form {
+  margin-top: 53px;
+}
+
+.pass-form {
+  margin-top: 30px;
+}
+
+.pass {
+  height: 42px;
+  border-radius: 4px;
+  background: #e6e6e6;
+  opacity: 0.49;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0.2rem rgb(43 174 102 / 0.69);
+}
+
+.email {
+  border-radius: 4px;
+  height: 42px;
+  background: #e6e6e6;
+  opacity: 0.49;
+}
+
+.login-form-2 .btnSubmit {
+  font-weight: 600;
+  color: #fff;
+  background-color: #2bae66;
+  ;
+}
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+  color: #2bae66;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 
 /* Css for ipad  */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -463,6 +547,11 @@ footer a:hover, .social-icons i:hover {
 
   .social-icons i {
     margin: 0px;
+  }
+  .main-container {
+
+    left: 0px;
+
   }
 }
 
@@ -598,6 +687,11 @@ footer a:hover, .social-icons i:hover {
 
   .content-text {
     font-size: 25pt;
+  }
+  .main-container {
+
+    left: 0px;
+
   }
 }
 

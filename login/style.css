@@ -1,137 +1,155 @@
 /* login-page-css */
-
 #logo {
   color: #2bae66;
   height: 38px;
   width: 128px;
 }
-#rbtn{
+
+#rbtn {
   background-color: #2bae66;
   border-color: inherit;
 }
-h3{
+
+h3 {
   font-family: 'Poppins', sans-serif;
-font-weight: bold;
-font-size: 32px;
-text-align: left;
-color: #292929;
-opacity: 0.87;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+  color: #292929;
+  opacity: 0.87;
 }
-h6{
+
+h6 {
   font-size: 9px;
   font-weight: normal;
   text-align: left;
 }
-form{
+
+form {
   margin-top: -53px;
 }
-label{
+
+label {
   font-size: 9px;
 }
+
 .btn {
   border-radius: 25px !important;
 }
+
 .form-gap {
-    padding-top: 70px;
+  padding-top: 70px;
 }
-.nav-borderRight:after{
+
+.nav-borderRight:after {
   content: "";
   position: absolute;
   top: 10%;
   right: 0;
   width: 1px;
   height: 80%;
-  background-color: #000 ;
+  background-color: #000;
 }
-.nav-borderRight{
+
+.nav-borderRight {
   position: relative;
 }
-.navbar{
+
+.navbar {
   background-color: #fff;
 }
-.login-container{
-    margin-top: 10%;
-    margin-bottom: 5%;
 
-
+.login-container {
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
-.login-form-2{
-    padding: 5%;
-color: #292929;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+.login-form-2 {
+  padding: 5%;
+  color: #292929;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }
-.login-form-2 h3{
-    text-align: center;
-color: #292929;
-      font-family: 'Poppins', sans-serif;
-}
-.login-container form{
-    padding: 10%;
-}
-.main-container{
 
+.login-form-2 h3 {
+  text-align: center;
+  color: #292929;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container form {
+  padding: 10%;
+}
+
+.main-container {
   position: relative;
-  left:250px;
+  left: 250px;
   width: 100%%;
 }
 
-.btnSubmit
-{
-    width: 100%;
-    height: 42px;
-    margin-top: 56px;
-    border-radius: 4px;
-    padding: 1.5%;
-    border: none;
-    cursor: pointer;
-    background: #2bae66;
-}
-.email-form{
-    margin-top: 53px;
-
-}
-.pass-form{
-    margin-top: 30px;
-}
-.pass{
-      height: 42px;
-
+.btnSubmit {
+  width: 100%;
+  height: 42px;
+  margin-top: 56px;
   border-radius: 4px;
-background: #e6e6e6;
-opacity: 0.49;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  background: #2bae66;
 }
-.email{
 
+.email-form {
+  margin-top: 53px;
+}
+
+.pass-form {
+  margin-top: 30px;
+}
+
+.pass {
+  height: 42px;
   border-radius: 4px;
-      height: 42px;
-background: #e6e6e6;
-opacity: 0.49;
+  background: #e6e6e6;
+  opacity: 0.49;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0.2rem rgb(43 174 102 / 0.69);
 }
 
-.login-form-2 .btnSubmit{
-    font-weight: 600;
-    color: #fff;
-    background-color: #2bae66;;
+.email {
+  border-radius: 4px;
+  height: 42px;
+  background: #e6e6e6;
+  opacity: 0.49;
 }
-.login-form-2 .ForgetPwd{
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
+
+.login-form-2 .btnSubmit {
+  font-weight: 600;
+  color: #fff;
+  background-color: #2bae66;
+  ;
 }
-.login-form-1 .ForgetPwd{
-    color: #2bae66;
-    font-weight: 600;
-    text-decoration: none;
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
 }
-footer{
-background-color: inherit;
+
+.login-form-1 .ForgetPwd {
+  color: #2bae66;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  background-color: inherit;
   height: 100%;
   width: 100%;
   background-color: #2bae66;
   padding: 2%;
   color: #fff;
 }
-a{
+
+a {
   color: inherit;
 }
