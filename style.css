@@ -576,9 +576,7 @@ footer a:hover, .social-icons i:hover {
   p{
     text-align: justify;
   }
-.col{
-  flex-basis: 1 !important;
-}
+
   .navbar-toggler {
     color: #2bae66;
     font-weight: bold;
@@ -730,7 +728,7 @@ footer a:hover, .social-icons i:hover {
   }
   .login-form-2{
     padding-top: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .lable-confirm1{
   display: none;
@@ -739,10 +737,13 @@ footer a:hover, .social-icons i:hover {
     display: block;
   }
   .first{
-    width: auto;
+    width: 260px;
+    margin-left: 5px;
   }
 footer .row{
   margin: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 }
 
