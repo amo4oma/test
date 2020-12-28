@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .lable-confirm2{
   display: none;
-
 }
+
 
 .read-more-arrow i {
   text-align: center;
@@ -461,7 +461,9 @@ footer a:hover, .social-icons i:hover {
   font-weight: 600;
   text-decoration: none;
 }
-
+.first{
+  width: 200px;
+}
 
 /* Css for ipad  */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -574,7 +576,9 @@ footer a:hover, .social-icons i:hover {
   p{
     text-align: justify;
   }
-
+.col{
+  flex-basis: 1 !important;
+}
   .navbar-toggler {
     color: #2bae66;
     font-weight: bold;
@@ -734,6 +738,10 @@ footer a:hover, .social-icons i:hover {
   .lable-confirm2{
     display: block;
   }
+  .first{
+    width: auto;
+  }
+
 }
 
                                                                                                          
