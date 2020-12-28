@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
+.lable-confirm2{
+  display: none;
+
+}
 
 .read-more-arrow i {
   text-align: center;
@@ -721,7 +725,14 @@ footer a:hover, .social-icons i:hover {
     margin-top: 100px !important;
   }
   .login-form-2{
+    padding-top: 30px;
     margin-left: 40px;
+  }
+  .lable-confirm1{
+  display: none;
+  }
+  .lable-confirm2{
+    display: block;
   }
 }
 
