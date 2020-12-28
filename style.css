@@ -466,6 +466,9 @@ footer a:hover, .social-icons i:hover {
     font-weight: bold;
     /* font-size: 2rem !important; */
   }
+  p{
+    width: 70%
+  }
 
   .navbar {
     color: #2bae66;
@@ -553,12 +556,18 @@ footer a:hover, .social-icons i:hover {
     left: 0px;
 
   }
+  .mission-p{
+    margin-top: 100px !important;
+  }
 }
 
 /* css for mobile  */
 @media only screen and (min-device-width: 280px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   h1 {
     font-size: 16px;
+  }
+  p{
+    text-align: justify;
   }
 
   .navbar-toggler {
@@ -568,7 +577,9 @@ footer a:hover, .social-icons i:hover {
   }
 
   .main-header {
-    margin-left: 46px;
+    line-height: 82px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .main-header h1 {
@@ -579,7 +590,9 @@ footer a:hover, .social-icons i:hover {
     margin-top: 50px;
     font-size: 28px;
   }
-
+.belief-container{
+  margin-top: 40px;
+}
   .image-1 {
     width: 346px;
     margin-top: 30px;
@@ -599,13 +612,13 @@ footer a:hover, .social-icons i:hover {
   }
 
   .about-container h1 {
-    padding: 20px;
+    padding: px;
   }
 
   .about-container h6 {
-    padding: 20px;
+    padding: 10px;
     font-size: 1rem;
-    width: 311px;
+    width: ;
   }
 
   .image-3 {
@@ -617,12 +630,14 @@ footer a:hover, .social-icons i:hover {
   }
 
   .box {
-    margin-left: -5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-left: -3.5rem;
   }
 
   .box-3 {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 0% 0% 60% 0%;
     background-color: #2BAE66;
     position: relative;
@@ -631,19 +646,25 @@ footer a:hover, .social-icons i:hover {
   }
 
   .box-opposite {
-    left: 85%;
+    height: 3rem;
+    width: 3rem;
+    left: ;
   }
 
   .box-opposite-2 {
-    left: 19rem;
+    height: 3rem;
+    width: 3rem;
+    left: 18.6rem;
   }
 
   .svg {
     position: absolute;
     left: 17rem;
-    bottom: 20rem;
+    bottom: 25rem;
   }
-
+  .transcend-container{
+    margin-top: 100px;
+  }
   .transcend-container h1 {
     font-size: 29px;
   }
@@ -651,10 +672,8 @@ footer a:hover, .social-icons i:hover {
   .transcend-container .row {
     flex-direction: column-reverse;
   }
-
-  .transcend-container img {
-    margin-top: 50px;
-    padding-left: 30px;
+  .tell-us{
+    margin-top: 100px;
   }
 
   .become-partner h1 {
@@ -664,6 +683,7 @@ footer a:hover, .social-icons i:hover {
 
   .become-partner h6 {
     margin: 0px;
+    text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -689,9 +709,15 @@ footer a:hover, .social-icons i:hover {
     font-size: 25pt;
   }
   .main-container {
-
+    margin-top: 100px;
     left: 0px;
 
+  }
+  .mission-container{
+    margin-top: 20px;
+  }
+  .mission-p{
+    margin-top: 100px !important;
   }
 }
 
