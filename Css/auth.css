@@ -10,12 +10,15 @@
   }
   .login-form-2 {
     width: 487px !important;
-    padding: 20px;
     color: #292929;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
   }
-  
+
+  .col-lg-5{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
   .login-form-2 h3 {
     margin-top: 42px;
     text-align: center;
@@ -30,7 +33,9 @@
   }
   
   .login-container form {
-    padding:  0 64px  0 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 37px;
   }
   
   /* nav-bar-burger-to-X */
@@ -137,7 +142,7 @@
   }
   
   .btnSubmit {
-    width: 100%;
+    width: 359px;
     font-weight: normal !important;
     height: 42px;
     margin-top: 38px;
@@ -149,13 +154,9 @@
     
   }
   
-  .email-form {
-    margin-top: 16px;
-  }
+
   
-  .pass-form {
-    margin-top: 23px;
-  }
+ 
   
   .pass {
     height: 38px;
@@ -166,6 +167,10 @@
   .form-control:focus{
     box-shadow: 0 0 0 0.2rem rgb(43 174 102 / 0.69);
     opacity: 1;
+  }
+  .form-control{
+
+    width: 359px;
   }
   
   .email {
@@ -192,21 +197,7 @@
     color: #2bae66;
     font-weight: 600;
     text-decoration: none;
-  }
-  .footer-container {
-    padding-left: 180px;
-    background-color: #2BAE66;
-  }
-  
-  footer a:hover, .social-icons i:hover {
-    color: #000;
-  }
-  footer {
-    background-color: inherit;
-    background-color: #2bae66;
-    padding: 2%;
-    color: #fff;
-  }
+
   /* Css for ipad  */
   @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #logo {
