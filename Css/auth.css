@@ -3,7 +3,11 @@
  
   
   }
-  
+  label{
+    color: #292929;
+    opacity: 0.87;
+    font-size: 16px;;
+  }
   .login-form-2 {
     width: 487px !important;
     padding: 20px;
@@ -16,6 +20,9 @@
     margin-top: 42px;
     text-align: center;
     color: #292929;
+    font-size: 32px;
+    color: #292929;
+    opacity: 0.87;
     font-family: 'Poppins', sans-serif;
   }
   .row{
