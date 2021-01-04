@@ -14,6 +14,7 @@
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
   }
+
   .form-group{
     margin-bottom: 22px;
   }
@@ -39,7 +40,7 @@
   .login-container form {
     padding-left: 64px;
     padding-right: 64px;
-    padding-bottom: 37px;
+    padding-bottom: 25px;
   }
   
   /* nav-bar-burger-to-X */
@@ -146,7 +147,7 @@
   }
   
   .btnSubmit {
-    width: 359px;
+    width: 100%;
     font-weight: normal !important;
     height: 42px;
     margin-top: 38px;
@@ -188,9 +189,10 @@
   }
   
   .login-form-2 .ForgetPwd {
-    color: #fff;
+    color: rgba(0, 0, 0, .75);
     font-weight: 600;
     text-decoration: none;
+    font-size: 14px;
   }
   
   .login-form-1 .ForgetPwd {
