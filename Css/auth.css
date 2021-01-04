@@ -9,10 +9,13 @@
     font-size: 16px;;
   }
   .login-form-2 {
-    width: 487px !important;
+    width: 100% !important;
     color: #292929;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
+  }
+  .form-group{
+    margin-bottom: 22px;
   }
 
   .col-lg-5{
@@ -21,6 +24,7 @@
   }
   .login-form-2 h3 {
     margin-top: 42px;
+    margin-bottom: 27px;
     text-align: center;
     color: #292929;
     font-size: 32px;
@@ -154,10 +158,6 @@
     
   }
   
-
-  
- 
-  
   .pass {
     height: 38px;
     border-radius: 4px;
@@ -170,7 +170,7 @@
   }
   .form-control{
 
-    width: 359px;
+    width: 100%;
   }
   
   .email {
